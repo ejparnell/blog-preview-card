@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Repository hosted on GitHub](https://github.com/ejparnell/blog-preview-card)
+- Live Site URL: [Hosted on Netlify](https://bp-blog-preview-card.netlify.app/)
 
 ## My process
 
