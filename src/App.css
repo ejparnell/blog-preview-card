@@ -1,0 +1,124 @@
+.main {
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    height: 501px;
+    width: 327px;
+    border-radius: 20px;
+    background-color: var(--white);
+    filter: drop-shadow(10px 10px 0px #000000);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #000000;
+}
+
+.card__image {
+    height: 200px;
+    width: 279px;
+    border-radius: 20px;
+    background-image: url('/images/illustration-article.svg');
+    background-size: cover;
+}
+
+.card__header {
+    background-color: var(--yellow);
+    width: 73px;
+    height: 26px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__title {
+    font-size: var(--font-size-text-preset-4);
+    line-height: var(--line-height);
+    letter-spacing: var(--letter-spacing);
+    font-weight: var(--font-bold);
+    color: var(--grey-950);
+}
+
+.card__text {
+    line-height: var(--line-height);
+    letter-spacing: var(--letter-spacing);
+    color: var(--grey-950);
+}
+
+.card__text-date {
+    font-size: var(--font-size-text-preset-4);
+    font-weight: var(--font-regular);
+}
+
+.card__text-heading {
+    font-size: var(--font-size-text-preset-1);
+    font-weight: var(--font-bold);
+}
+
+.card__text-heading:hover {
+    cursor: pointer;
+    color: var(--yellow);
+}
+
+.card__text-content {
+    font-size: var(--font-size-text-preset-3);
+    font-weight: var(--font-light);
+}
+
+.card__author {
+    display: flex;
+    align-items: center;
+}
+
+.card__avatar {
+    height: 32px;
+    width: 32px;
+}
+
+.author {
+    font-size: var(--font-size-text-preset-3);
+    font-weight: var(--font-bold);
+    letter-spacing: var(--letter-spacing);
+    line-height: var(--line-height);
+    color: var(--grey-950);
+    margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        height: 522px;
+        width: 384px;
+    }
+
+    .card__image {
+        width: 336px;
+        height: 200px;
+    }
+
+    .card__header {
+        height: 29px;
+        width: 82px;
+    }
+
+    .card__title {
+        font-size: var(--font-size-text-preset-3);
+    }
+
+    .card__text-date {
+        font-size: var(--font-size-text-preset-3);
+    }
+
+    .card__text-heading {
+        font-size: var(--font-size-text-preset-1);
+    }
+
+    .card__text-content {
+        font-size: var(--font-size-text-preset-2);
+    }
+}
